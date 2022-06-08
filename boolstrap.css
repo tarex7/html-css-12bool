@@ -120,6 +120,10 @@
   width: 50%;
 }
 
+.w-100 {
+    width: 100%;
+}
+
 .no-wrap {
     flex-wrap: nowrap;
 }
@@ -128,3 +132,12 @@
     flex-direction: column;
 }
 
+.align-top {
+    align-items: flex-start;
+}
+.align-center {
+    align-items: center;
+}
+.align-end {
+    align-items: flex-end;
+}
