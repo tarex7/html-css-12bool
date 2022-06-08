@@ -1,0 +1,9 @@
+.debug {
+    border: 1px red solid;
+}
+
+[class^="col"] {
+    background-color: dodgerblue;
+    padding: 20px;
+    color: #fff;
+}
