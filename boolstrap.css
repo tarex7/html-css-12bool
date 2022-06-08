@@ -1,143 +1,147 @@
 /* Reset */
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.row {
-  display: flex;
-  max-width: 100%;
-  flex-wrap: wrap;
-}
-
-.col-1 {
-  flex-basis: calc(100% / 12);
-}
-
-.col-2 {
-  flex-basis: calc(100% / 12 * 2);
-}
-
-.col-3 {
-  flex-basis: calc(100% / 12 * 3);
-}
-
-.col-4 {
-  flex-basis: calc(100% / 12 * 4);
-}
-.col-5 {
-  flex-basis: calc(100% / 12 * 5);
-}
-
-.col-6 {
-  flex-basis: calc(100% / 12 * 6);
-}
-
-.col-7 {
-  flex-basis: calc(100% / 12 * 7);
-}
-
-.col-8 {
-  flex-basis: calc(100% / 12 * 8);
-}
-
-.col-9 {
-  flex-basis: calc(100% / 12 * 9);
-}
-
-.col-10 {
-  flex-basis: calc(100% / 12 * 10);
-}
-
-.col-11 {
-  flex-basis: calc(100% / 12 * 11);
-}
-
-.col-12 {
-  flex-basis: 100%;
-}
-/* OFFSETS */
-
-.offset-12 {
-  margin-left: 100%;
-}
-
-.offset-11 {
-  margin-left: calc(100% / 12 * 11);
-}
-.offset-10 {
-  margin-left: calc(100% / 12 * 10);
-}
-.offset-9 {
-  margin-left: calc(100% / 12 * 9);
-}
-.offset-8 {
-  margin-left: calc(100% / 12 * 8);
-}
-.offset-7 {
-  margin-left: calc(100% / 12 * 7);
-}
-.offset-6 {
-  margin-left: calc(100% / 12 * 6);
-}
-.offset-5 {
-  margin-left: calc(100% / 12 * 5);
-}
-.offset-4 {
-  margin-left: calc(100% / 12 * 4);
-}
-.offset-3 {
-  margin-left: calc(100% / 12 * 3);
-}
-.offset-2 {
-  margin-left: calc(100% / 12 * 2);
-}
-.offset-1 {
-  margin-left: calc(100% / 12);
-}
-.offset-0 {
-  margin-left: calc(100% / 12 * 11);
-}
-
-.d-flex {
-  display: flex;
-}
-
-.justify-space-around {
-    justify-content: space-around;
-}
-
-.justify-space-between {
-    justify-content: space-between;
-}
-
-.mt-20 {
-  margin-top: 20px;
-}
-
-.w-50 {
-  width: 50%;
-}
-
-.w-100 {
-    width: 100%;
-}
-
-.no-wrap {
-    flex-wrap: nowrap;
-}
-
-.flex-column {
-    flex-direction: column;
-}
-
-.align-top {
-    align-items: flex-start;
-}
-.align-center {
-    align-items: center;
-}
-.align-end {
-    align-items: flex-end;
-}
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  
+  .col-1 {
+    flex-basis: calc(100% / 12);
+  }
+  
+  .col-2 {
+    flex-basis: calc(100% / 12 * 2);
+  }
+  
+  .col-3 {
+    flex-basis: calc(100% / 12 * 3);
+  }
+  
+  .col-4 {
+    flex-basis: calc(100% / 12 * 4);
+  }
+  .col-5 {
+    flex-basis: calc(100% / 12 * 5);
+  }
+  
+  .col-6 {
+    flex-basis: calc(100% / 12 * 6);
+  }
+  
+  .col-7 {
+    flex-basis: calc(100% / 12 * 7);
+  }
+  
+  .col-8 {
+    flex-basis: calc(100% / 12 * 8);
+  }
+  
+  .col-9 {
+    flex-basis: calc(100% / 12 * 9);
+  }
+  
+  .col-10 {
+    flex-basis: calc(100% / 12 * 10);
+  }
+  
+  .col-11 {
+    flex-basis: calc(100% / 12 * 11);
+  }
+  
+  .col-12 {
+    flex-basis: 100%;
+  }
+  /* OFFSETS */
+  
+  .offset-12 {
+    margin-left: 100%;
+  }
+  
+  .offset-11 {
+    margin-left: calc(100% / 12 * 11);
+  }
+  .offset-10 {
+    margin-left: calc(100% / 12 * 10);
+  }
+  .offset-9 {
+    margin-left: calc(100% / 12 * 9);
+  }
+  .offset-8 {
+    margin-left: calc(100% / 12 * 8);
+  }
+  .offset-7 {
+    margin-left: calc(100% / 12 * 7);
+  }
+  .offset-6 {
+    margin-left: calc(100% / 12 * 6);
+  }
+  .offset-5 {
+    margin-left: calc(100% / 12 * 5);
+  }
+  .offset-4 {
+    margin-left: calc(100% / 12 * 4);
+  }
+  .offset-3 {
+    margin-left: calc(100% / 12 * 3);
+  }
+  .offset-2 {
+    margin-left: calc(100% / 12 * 2);
+  }
+  .offset-1 {
+    margin-left: calc(100% / 12);
+  }
+  .offset-0 {
+    margin-left: calc(100% / 12 * 11);
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .justify-space-around {
+      justify-content: space-around;
+  }
+  
+  .justify-space-between {
+      justify-content: space-between;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  .w-50 {
+    width: 50%;
+  }
+  
+  .w-100 {
+      width: 100%;
+  }
+  
+  .no-wrap {
+      flex-wrap: nowrap;
+  }
+  
+  .flex-column {
+      flex-direction: column;
+  }
+  
+  .align-top {
+      align-items: flex-start;
+  }
+  .align-center {
+      align-items: center;
+  }
+  .align-end {
+      align-items: flex-end;
+  }
+  
+  .p-0 {
+      padding: 0;
+  }

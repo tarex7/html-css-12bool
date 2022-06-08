@@ -4,17 +4,17 @@
 
 [class^="col"] {
     background-color: dodgerblue;
-    padding: 20px;
     color: #fff;
     border: 1px solid #fff;
     text-align: center;
-    height:80px;
+    min-height:80px;
+    padding: 20px;
 }
 
 .nested {
     background-color: rgb(126, 126, 126);
-    height: 100%;
 }
+    
 
 .h-500 {
     /* height: 500px; */
@@ -23,4 +23,6 @@
 .col-large {
     height: 160px;
 }
+
+
 
