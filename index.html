@@ -44,16 +44,20 @@
       <div class="col-6"><p>6 col</p></div>
       <div class="col-1"><p>1 col</p></div>
       <!----------------------------------->
-      <div class="col-6 d-flex">
-        <div class="col-2 nested"><p>Nested 2 col</p></div>
-        <div class="col-2 nested"><p>Nested 2 col</p></div>
-        <div class="col-8 nested"><p>Nested 8 col</p></div>
+      <div class="col-6">
+        <div class="row">
+          <div class="col-2 nested"><p>Nested 2 col</p></div>
+          <div class="col-2 nested"><p>Nested 2 col</p></div>
+          <div class="col-8 nested"><p>Nested 8 col</p></div>
+        </div>
       </div>
       <!----------------------------------->
 
-      <div class="col-6 d-flex">
-        <div class="col-6 nested"><p>Nested 6 col</p></div>
-        <div class="col-6 nested"><p>Nested 6 col</p></div>
+      <div class="col-6">
+        <div class="row">
+          <div class="col-6 nested"><p>Nested 6 col</p></div>
+          <div class="col-6 nested"><p>Nested 6 col</p></div>
+        </div>
       </div>
       <!----------------------------------->
 
@@ -97,18 +101,69 @@
     <h1 class="mt-20">Nested</h1>
     <!----------------------------------->
     <div class="row">
-      <div class="col-7 d-flex">
-        <div class="col-3 nested"></div>
-        <div class="col-6 nested"></div>
-        <div class="col-3 nested"></div>
+      <div class="col-7">
+        <div class="row">
+          <div class="col-3 nested"></div>
+          <div class="col-6 nested"></div>
+          <div class="col-3 nested"></div>
+        </div>
       </div>
-      <div class="col-5 d-flex">
-        <div class="col-6 nested"></div>
-        <div class="col-6 nested"></div>
+      
+      <div class="col-5">
+        <div class="row">
+          <div class="col-6 nested"></div>
+          <div class="col-6 nested"></div>
+        </div>
       </div>
     </div>
     <!----------------------------------->
     <h1 class="mt-20">Alignment</h1>
     <!----------------------------------->
+    <div class="row">
+      <div class="col-6"><p>start</p></div>
+    </div>
+    <div class="row">
+      <div class="col-6 offset-3"><p>center</p></div>
+    </div>
+    <div class="row">
+      <div class="col-6 offset-6"><p>end</p></div>
+    </div>
+    <!--------------------------------------->
+
+    <div class="row">
+      <div class="row  w-50">
+        <div class="col-12"></div>
+        <div class="col-12"></div>
+        <div class="col-12"></div>
+      </div>
+
+      <div class="row h-500  w-50 debug">
+        <div class="col-12"><p>top</p></div>
+        <div class="col-12"><p>middle</p></div>
+        <div class="col-12"><p>bottom</p></div>
+      </div>
+    </div>
+
+    <!--------------------------------------->
+    <h1>Justify Content</h1>
+    <h2>Space Around</h2>
+    <div class="row">
+      <div class="col-12">
+        <div class="row justify-space-around">
+          <div class="col-2 nested"></div>
+          <div class="col-2 nested"></div>
+          <div class="col-2 nested"></div>
+        </div>
+      </div>
+      <h2>Space Between</h2>
+
+      <div class="col-12">
+        <div class="row justify-space-between">
+          <div class="col-2 nested"></div>
+          <div class="col-2 nested"></div>
+          <div class="col-2 nested"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

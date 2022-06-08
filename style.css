@@ -8,9 +8,16 @@
     color: #fff;
     border: 1px solid #fff;
     text-align: center;
-    min-height:50px;
+    height:80px;
 }
 
 .nested {
     background-color: rgb(126, 126, 126);
+    height: 100%;
 }
+
+.h-500 {
+    height: 500px;
+}
+
+
