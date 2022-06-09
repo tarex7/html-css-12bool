@@ -111,6 +111,18 @@
   .justify-space-between {
       justify-content: space-between;
   }
+
+  .justify-center {
+      justify-content: center;
+  }
+
+  .justify-start {
+      justify-content: flex-start;
+  }
+
+  .justify-end {
+      justify-content: flex-end;
+  }
   
   .mt-20 {
     margin-top: 20px;
